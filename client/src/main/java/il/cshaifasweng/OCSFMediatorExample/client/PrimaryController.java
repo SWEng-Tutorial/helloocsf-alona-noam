@@ -97,6 +97,8 @@ public class PrimaryController {
 		MessageTF.clear();
 		DataFromServerTF.clear();
 		msgId=0;
+		submitterID1.setText("325888949");
+		submitterID2.setText("325674513");
 		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("HH:mm:ss");
 		Timeline clock = new Timeline(new KeyFrame(Duration.ZERO, e -> {
 			LocalTime currentTime = LocalTime.now();
